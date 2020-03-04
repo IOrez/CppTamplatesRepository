@@ -17,6 +17,18 @@
     <Filter Include="basics\함수템플릿기초\a01_두 단계 번역/두단계 룩업">
       <UniqueIdentifier>{0b78f078-772e-45b1-9ffa-ef5aba76c6ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="basics\함수템플릿기초\a02_템플릿 인자 영역">
+      <UniqueIdentifier>{aa7845f3-99fc-41d5-8eab-1c00b24d9f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터">
+      <UniqueIdentifier>{70b092e9-79b1-42b6-855e-5d0734217d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basics\함수템플릿기초\a04_기본 템플릿 인자">
+      <UniqueIdentifier>{6862f537-ba14-4752-ab73-6b1e17c15647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basics\함수템플릿기초\a05_함수 템플릿 오버로딩">
+      <UniqueIdentifier>{8cccdbde-878b-4ce1-9afc-7046c6d63338}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.hpp">
@@ -25,10 +37,46 @@
     <ClInclude Include="basics\함수템플릿기초\두 단계 번역\complex.hpp">
       <Filter>basics\함수템플릿기초\a01_두 단계 번역/두단계 룩업</Filter>
     </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a02_템플릿 인자 영역\template_parameter_section.h">
+      <Filter>basics\함수템플릿기초\a02_템플릿 인자 영역</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\multi_template_parameter.hpp">
+      <Filter>basics\함수템플릿기초\a03_다중 템플릿 파라미터</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\maxauto.hpp">
+      <Filter>basics\함수템플릿기초\a03_다중 템플릿 파라미터</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\maxdecltypedecay.hpp">
+      <Filter>basics\함수템플릿기초\a03_다중 템플릿 파라미터</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\maxcommon.hpp">
+      <Filter>basics\함수템플릿기초\a03_다중 템플릿 파라미터</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a04_기본 템플릿 인자\maxdefault1.hpp">
+      <Filter>basics\함수템플릿기초\a04_기본 템플릿 인자</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a04_기본 템플릿 인자\maxdefault3.hpp">
+      <Filter>basics\함수템플릿기초\a04_기본 템플릿 인자</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\maxdefault4.hpp">
+      <Filter>basics\함수템플릿기초\a05_함수 템플릿 오버로딩</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.cpp">
       <Filter>basics\함수템플릿기초\a00_인스턴스화,인스턴스</Filter>
+    </ClCompile>
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max2.cpp">
+      <Filter>basics\함수템플릿기초\a05_함수 템플릿 오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max3val.cpp">
+      <Filter>basics\함수템플릿기초\a05_함수 템플릿 오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max3ref.cpp">
+      <Filter>basics\함수템플릿기초\a05_함수 템플릿 오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max4.cpp">
+      <Filter>basics\함수템플릿기초\a05_함수 템플릿 오버로딩</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

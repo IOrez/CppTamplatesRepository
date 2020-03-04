@@ -19,10 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="basics\함수템플릿기초\a02_템플릿 인자 영역\template_parameter_section.h" />
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\maxauto.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\maxcommon.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\maxdecltypedecay.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\a03_다중 템플릿 파라미터\multi_template_parameter.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\a04_기본 템플릿 인자\maxdefault1.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\a04_기본 템플릿 인자\maxdefault3.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\maxdefault4.hpp" />
     <ClInclude Include="basics\함수템플릿기초\두 단계 번역\complex.hpp" />
     <ClInclude Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max2.cpp" />
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max3ref.cpp" />
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max3val.cpp" />
+    <ClCompile Include="basics\함수템플릿기초\a05_함수 템플릿  오버로딩\max4.cpp" />
     <ClCompile Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
