@@ -1,4 +1,4 @@
-#include "max1.hpp"
+#include "max.hpp"
 #include <iostream>
 #include <string>
 

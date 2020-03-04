@@ -1,7 +1,1 @@
-#include <iostream>
-using namespace std;
-int main()
-{
-	cout << "hi" << endl;
-	return 0;
-}
+#include "../Chapter001/basics/함수템플릿기초/인스턴스화,인스턴스/max.cpp"

@@ -11,15 +11,24 @@
     <Filter Include="basics\함수템플릿기초">
       <UniqueIdentifier>{f943e6db-51a2-4e70-ba89-7b9baf427f63}</UniqueIdentifier>
     </Filter>
+    <Filter Include="basics\함수템플릿기초\a00_인스턴스화,인스턴스">
+      <UniqueIdentifier>{24ae009f-900c-4623-bacd-36a4957221df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basics\함수템플릿기초\a01_두 단계 번역/두단계 룩업">
+      <UniqueIdentifier>{0b78f078-772e-45b1-9ffa-ef5aba76c6ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="max1.hpp">
-      <Filter>basics\함수템플릿기초</Filter>
+    <ClInclude Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.hpp">
+      <Filter>basics\함수템플릿기초\a00_인스턴스화,인스턴스</Filter>
+    </ClInclude>
+    <ClInclude Include="basics\함수템플릿기초\두 단계 번역\complex.hpp">
+      <Filter>basics\함수템플릿기초\a01_두 단계 번역/두단계 룩업</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basics\함수템플릿기초\max1.cpp">
-      <Filter>basics\함수템플릿기초</Filter>
+    <ClCompile Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.cpp">
+      <Filter>basics\함수템플릿기초\a00_인스턴스화,인스턴스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

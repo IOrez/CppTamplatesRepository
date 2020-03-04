@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basics\함수템플릿기초\두 단계 번역\complex.hpp" />
+    <ClInclude Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basics\함수템플릿기초\인스턴스화,인스턴스\max.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{77DC0088-8FB7-40E1-B39B-9FA127AE30C0}</ProjectGuid>
@@ -137,12 +144,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="max1.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="basics\함수템플릿기초\max1.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
