@@ -1,1 +1,1 @@
-#include "../Chapter001/basics/함수템플릿기초/a00_인스턴스화,인스턴스/max.cpp"
+#include "../Chapter002/a01_클래스 템플릿 Stack의 사용/stack1test.cpp"

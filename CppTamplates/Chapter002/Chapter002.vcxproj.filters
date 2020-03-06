@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="a00_클래스 템플릿 Stack의 구현">
+      <UniqueIdentifier>{6d931929-f0ac-4f66-b97e-51f7e1ee21ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a01_클래스 템플릿 Stack의 사용">
+      <UniqueIdentifier>{ece382cc-794c-48ff-a241-f2b17405d207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a02_클래스 템플릿의 일부 사용">
+      <UniqueIdentifier>{e0562efb-4b88-43f7-8b5b-45d8ca108bd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a00_클래스 템플릿 Stack의 구현\stack1.hpp">
+      <Filter>a00_클래스 템플릿 Stack의 구현</Filter>
+    </ClCompile>
+    <ClCompile Include="a01_클래스 템플릿 Stack의 사용\stack1test.cpp">
+      <Filter>a01_클래스 템플릿 Stack의 사용</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp">
+      <Filter>a02_클래스 템플릿의 일부 사용</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
