@@ -140,9 +140,12 @@
   <ItemGroup>
     <ClCompile Include="a00_클래스 템플릿 Stack의 구현\stack1.hpp" />
     <ClCompile Include="a01_클래스 템플릿 Stack의 사용\stack1test.cpp" />
+    <ClCompile Include="a03_프렌드\example1.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp" />
+    <ClInclude Include="a04_클래스 템플릿의 특수화\stack2.hpp" />
+    <ClInclude Include="a05_부분 특수화\stackpartspec.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

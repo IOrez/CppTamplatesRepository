@@ -14,6 +14,15 @@
     <Filter Include="a02_클래스 템플릿의 일부 사용">
       <UniqueIdentifier>{e0562efb-4b88-43f7-8b5b-45d8ca108bd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a03_프렌드">
+      <UniqueIdentifier>{8f979188-9b3f-4751-8b07-9948d3b56fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a04_클래스 템플릿의 특수화">
+      <UniqueIdentifier>{84d287ee-228b-4fe3-8e22-b7ebd8872b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a05_부분 특수화">
+      <UniqueIdentifier>{dd697fd5-b951-4e08-813e-0140edaac97c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a00_클래스 템플릿 Stack의 구현\stack1.hpp">
@@ -22,10 +31,19 @@
     <ClCompile Include="a01_클래스 템플릿 Stack의 사용\stack1test.cpp">
       <Filter>a01_클래스 템플릿 Stack의 사용</Filter>
     </ClCompile>
+    <ClCompile Include="a03_프렌드\example1.hpp">
+      <Filter>a03_프렌드</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp">
       <Filter>a02_클래스 템플릿의 일부 사용</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_클래스 템플릿의 특수화\stack2.hpp">
+      <Filter>a04_클래스 템플릿의 특수화</Filter>
+    </ClInclude>
+    <ClInclude Include="a05_부분 특수화\stackpartspec.hpp">
+      <Filter>a05_부분 특수화</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
