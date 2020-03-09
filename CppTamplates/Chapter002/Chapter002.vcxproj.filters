@@ -23,6 +23,15 @@
     <Filter Include="a05_부분 특수화">
       <UniqueIdentifier>{dd697fd5-b951-4e08-813e-0140edaac97c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a06_기본 클래스 템플릿 인자">
+      <UniqueIdentifier>{4cd98edf-1b55-4b4e-a5d1-428a78f7f7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a07_형식 별칭">
+      <UniqueIdentifier>{c54b9a37-40e3-4c99-a6e5-5dbad425d3fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a08_템플릿 클래스 인자 영역">
+      <UniqueIdentifier>{92ab2f21-ce33-471e-a513-af74567ed3b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a00_클래스 템플릿 Stack의 구현\stack1.hpp">
@@ -34,6 +43,15 @@
     <ClCompile Include="a03_프렌드\example1.hpp">
       <Filter>a03_프렌드</Filter>
     </ClCompile>
+    <ClCompile Include="a06_기본 클래스 템플릿 인자\stack3test.cpp">
+      <Filter>a06_기본 클래스 템플릿 인자</Filter>
+    </ClCompile>
+    <ClCompile Include="a07_형식 별칭\example1.cpp">
+      <Filter>a07_형식 별칭</Filter>
+    </ClCompile>
+    <ClCompile Include="a08_템플릿 클래스 인자 영역\example1.cpp">
+      <Filter>a08_템플릿 클래스 인자 영역</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp">
@@ -44,6 +62,9 @@
     </ClInclude>
     <ClInclude Include="a05_부분 특수화\stackpartspec.hpp">
       <Filter>a05_부분 특수화</Filter>
+    </ClInclude>
+    <ClInclude Include="a06_기본 클래스 템플릿 인자\stack3.hpp">
+      <Filter>a06_기본 클래스 템플릿 인자</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

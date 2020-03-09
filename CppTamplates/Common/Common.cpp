@@ -1,1 +1,1 @@
-#include "../Chapter002/a01_클래스 템플릿 Stack의 사용/stack1test.cpp"
+#include "../Chapter002/a08_템플릿 클래스 인자 영역/example1.cpp"
