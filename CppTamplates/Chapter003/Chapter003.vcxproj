@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{02DA9796-35D4-45BA-A52E-CCCF6A58F9F1}</ProjectGuid>
-    <RootNamespace>Chapter002</RootNamespace>
+    <ProjectGuid>{B442C541-2EBA-4B74-9063-63E1BAB55564}</ProjectGuid>
+    <RootNamespace>Chapter003</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -92,7 +92,6 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalOptions>/std:c++latest %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -140,24 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="a00_클래스 템플릿 Stack의 구현\stack1.hpp" />
-    <ClCompile Include="a01_클래스 템플릿 Stack의 사용\stack1test.cpp" />
-    <ClCompile Include="a03_프렌드\example1.hpp" />
-    <ClCompile Include="a06_기본 클래스 템플릿 인자\stack3test.cpp" />
-    <ClCompile Include="a07_형식 별칭\example1.cpp" />
-    <ClCompile Include="a08_템플릿 클래스 인자 영역\example1.cpp">
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/std:c++latest %(AdditionalOptions)</AdditionalOptions>
-      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
-      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdcpplatest</LanguageStandard>
-      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Level3</WarningLevel>
-    </ClCompile>
+    <ClInclude Include="a00_형식이 아닌 클래스 템플릿 파라미터\stacknontype.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp" />
-    <ClInclude Include="a04_클래스 템플릿의 특수화\stack2.hpp" />
-    <ClInclude Include="a05_부분 특수화\stackpartspec.hpp" />
-    <ClInclude Include="a06_기본 클래스 템플릿 인자\stack3.hpp" />
-    <ClInclude Include="a09_템플릿화된 집합\example1.cpp" />
+    <ClCompile Include="a00_형식이 아닌 클래스 템플릿 파라미터\stacknontype.cpp" />
+    <ClCompile Include="a01_형식이 아닌 함수 템플릿 파라미터\addvalue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

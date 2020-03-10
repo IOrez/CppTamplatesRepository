@@ -32,6 +32,9 @@
     <Filter Include="a08_템플릿 클래스 인자 영역">
       <UniqueIdentifier>{92ab2f21-ce33-471e-a513-af74567ed3b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a09_템플릿화된 집합">
+      <UniqueIdentifier>{2d9f704f-1777-4421-97c9-48f98addf145}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a00_클래스 템플릿 Stack의 구현\stack1.hpp">
@@ -54,9 +57,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp">
-      <Filter>a02_클래스 템플릿의 일부 사용</Filter>
-    </ClInclude>
     <ClInclude Include="a04_클래스 템플릿의 특수화\stack2.hpp">
       <Filter>a04_클래스 템플릿의 특수화</Filter>
     </ClInclude>
@@ -65,6 +65,12 @@
     </ClInclude>
     <ClInclude Include="a06_기본 클래스 템플릿 인자\stack3.hpp">
       <Filter>a06_기본 클래스 템플릿 인자</Filter>
+    </ClInclude>
+    <ClInclude Include="a09_템플릿화된 집합\example1.cpp">
+      <Filter>a09_템플릿화된 집합</Filter>
+    </ClInclude>
+    <ClInclude Include="a02_클래스 템플릿의 일부 사용\example1.hpp">
+      <Filter>a02_클래스 템플릿의 일부 사용</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
