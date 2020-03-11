@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{B442C541-2EBA-4B74-9063-63E1BAB55564}</ProjectGuid>
-    <RootNamespace>Chapter003</RootNamespace>
+    <ProjectGuid>{7826BEB5-639A-4718-BA69-6968CDD77BC2}</ProjectGuid>
+    <RootNamespace>Chapter004</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -87,7 +87,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalOptions>/std:c++latest %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,16 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="a00_형식이 아닌 클래스 템플릿 파라미터\stacknontype.hpp" />
-    <ClInclude Include="a03_템플릿 파라미터 형식로서의 auto\stackauto.hpp" />
+    <ClInclude Include="a00_가변 인자 템플릿\varprint1.hpp" />
+    <ClInclude Include="a00_가변 인자 템플릿\varprint2.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="a00_형식이 아닌 클래스 템플릿 파라미터\stacknontype.cpp" />
-    <ClCompile Include="a01_형식이 아닌 함수 템플릿 파라미터\addvalue.cpp" />
-    <ClCompile Include="a02_형식이 아닌 템플릿 파라미터에 대한 제약\example1.cpp" />
-    <ClCompile Include="a02_형식이 아닌 템플릿 파라미터에 대한 제약\example2.cpp" />
-    <ClCompile Include="a03_템플릿 파라미터 형식로서의 auto\message.cpp" />
-    <ClCompile Include="a03_템플릿 파라미터 형식로서의 auto\stackauto.cpp" />
+    <ClCompile Include="a00_가변 인자 템플릿\sizeof_operator.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

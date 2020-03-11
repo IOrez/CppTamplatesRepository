@@ -11,10 +11,19 @@
     <Filter Include="a01_형식이 아닌 함수 템플릿 파라미터">
       <UniqueIdentifier>{ff590078-d0d9-4f03-ab63-9cc349902954}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a02_형식이 아닌 템플릿 파라미터에 대한 제약">
+      <UniqueIdentifier>{70a738b8-bf63-490f-9d9c-8c7defe38cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a03_템플릿 파라미터 형식로서의 auto">
+      <UniqueIdentifier>{afc92c24-f5a0-4332-ab54-a7e492d37835}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a00_형식이 아닌 클래스 템플릿 파라미터\stacknontype.hpp">
       <Filter>a00_형식이 아닌 클래스 템플릿 파라미터</Filter>
+    </ClInclude>
+    <ClInclude Include="a03_템플릿 파라미터 형식로서의 auto\stackauto.hpp">
+      <Filter>a03_템플릿 파라미터 형식로서의 auto</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -23,6 +32,18 @@
     </ClCompile>
     <ClCompile Include="a01_형식이 아닌 함수 템플릿 파라미터\addvalue.cpp">
       <Filter>a01_형식이 아닌 함수 템플릿 파라미터</Filter>
+    </ClCompile>
+    <ClCompile Include="a02_형식이 아닌 템플릿 파라미터에 대한 제약\example1.cpp">
+      <Filter>a02_형식이 아닌 템플릿 파라미터에 대한 제약</Filter>
+    </ClCompile>
+    <ClCompile Include="a02_형식이 아닌 템플릿 파라미터에 대한 제약\example2.cpp">
+      <Filter>a02_형식이 아닌 템플릿 파라미터에 대한 제약</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_템플릿 파라미터 형식로서의 auto\stackauto.cpp">
+      <Filter>a03_템플릿 파라미터 형식로서의 auto</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_템플릿 파라미터 형식로서의 auto\message.cpp">
+      <Filter>a03_템플릿 파라미터 형식로서의 auto</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
