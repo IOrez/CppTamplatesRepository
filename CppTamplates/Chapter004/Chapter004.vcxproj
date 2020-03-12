@@ -140,9 +140,13 @@
   <ItemGroup>
     <ClInclude Include="a00_가변 인자 템플릿\varprint1.hpp" />
     <ClInclude Include="a00_가변 인자 템플릿\varprint2.hpp" />
+    <ClInclude Include="a01_접힌 표현식\addspace.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a00_가변 인자 템플릿\sizeof_operator.hpp" />
+    <ClCompile Include="a01_접힌 표현식\example1.cpp" />
+    <ClCompile Include="a01_접힌 표현식\foldtraverse.cpp" />
+    <ClCompile Include="a02_가변 인자 템플릿 애플리케이션\example1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

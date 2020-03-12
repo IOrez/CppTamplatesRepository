@@ -8,6 +8,12 @@
     <Filter Include="a00_가변 인자 템플릿">
       <UniqueIdentifier>{5085472d-fb54-4e69-9066-5f9213b06c3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a01_접힌 표현식">
+      <UniqueIdentifier>{24168ba6-0a28-4a4a-b5aa-51059c8ac24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a02_가변 인자 템플릿 애플리케이션">
+      <UniqueIdentifier>{62fe9c5e-49d2-49c2-8bd2-705c148fbb57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a00_가변 인자 템플릿\varprint1.hpp">
@@ -16,10 +22,22 @@
     <ClInclude Include="a00_가변 인자 템플릿\varprint2.hpp">
       <Filter>a00_가변 인자 템플릿</Filter>
     </ClInclude>
+    <ClInclude Include="a01_접힌 표현식\addspace.hpp">
+      <Filter>a01_접힌 표현식</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a00_가변 인자 템플릿\sizeof_operator.hpp">
       <Filter>a00_가변 인자 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="a01_접힌 표현식\example1.cpp">
+      <Filter>a01_접힌 표현식</Filter>
+    </ClCompile>
+    <ClCompile Include="a01_접힌 표현식\foldtraverse.cpp">
+      <Filter>a01_접힌 표현식</Filter>
+    </ClCompile>
+    <ClCompile Include="a02_가변 인자 템플릿 애플리케이션\example1.cpp">
+      <Filter>a02_가변 인자 템플릿 애플리케이션</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
