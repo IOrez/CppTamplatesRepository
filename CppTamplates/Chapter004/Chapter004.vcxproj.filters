@@ -14,6 +14,9 @@
     <Filter Include="a02_가변 인자 템플릿 애플리케이션">
       <UniqueIdentifier>{62fe9c5e-49d2-49c2-8bd2-705c148fbb57}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a03_가변 클래스 템플릿과 가변 표현식">
+      <UniqueIdentifier>{029bf478-55a8-486c-b5a7-6e76cd714eb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a00_가변 인자 템플릿\varprint1.hpp">
@@ -38,6 +41,21 @@
     </ClCompile>
     <ClCompile Include="a02_가변 인자 템플릿 애플리케이션\example1.cpp">
       <Filter>a02_가변 인자 템플릿 애플리케이션</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example1.cpp">
+      <Filter>a03_가변 클래스 템플릿과 가변 표현식</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example2.cpp">
+      <Filter>a03_가변 클래스 템플릿과 가변 표현식</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example3.cpp">
+      <Filter>a03_가변 클래스 템플릿과 가변 표현식</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example4.cpp">
+      <Filter>a03_가변 클래스 템플릿과 가변 표현식</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\varsusing.cpp">
+      <Filter>a03_가변 클래스 템플릿과 가변 표현식</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

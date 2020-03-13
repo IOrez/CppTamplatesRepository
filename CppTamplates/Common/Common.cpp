@@ -1,1 +1,1 @@
-#include "../Chapter004/a00_가변 인자 템플릿/sizeof_operator.hpp"
+#include "../Chapter004/a03_가변 클래스 템플릿과 가변 표현식/example3.cpp"

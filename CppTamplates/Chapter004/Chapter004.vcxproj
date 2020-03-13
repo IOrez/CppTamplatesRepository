@@ -147,6 +147,11 @@
     <ClCompile Include="a01_접힌 표현식\example1.cpp" />
     <ClCompile Include="a01_접힌 표현식\foldtraverse.cpp" />
     <ClCompile Include="a02_가변 인자 템플릿 애플리케이션\example1.cpp" />
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example1.cpp" />
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example2.cpp" />
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example3.cpp" />
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\example4.cpp" />
+    <ClCompile Include="a03_가변 클래스 템플릿과 가변 표현식\varsusing.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
