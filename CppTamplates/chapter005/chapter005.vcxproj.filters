@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="a00_키워드 typename">
+      <UniqueIdentifier>{b3cbd82a-9784-400d-bc86-0eb7982288e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a01_0 초기화">
+      <UniqueIdentifier>{877de7cf-9151-430d-a325-76db46ba4028}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a00_키워드 typename\example1.hpp">
+      <Filter>a00_키워드 typename</Filter>
+    </ClInclude>
+    <ClInclude Include="a00_키워드 typename\printcoll.hpp">
+      <Filter>a00_키워드 typename</Filter>
+    </ClInclude>
+    <ClInclude Include="a01_0 초기화\example1.hpp">
+      <Filter>a01_0 초기화</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
