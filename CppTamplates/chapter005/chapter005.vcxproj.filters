@@ -7,6 +7,12 @@
     <Filter Include="a01_0 초기화">
       <UniqueIdentifier>{877de7cf-9151-430d-a325-76db46ba4028}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a02_this 사용">
+      <UniqueIdentifier>{6eae71d2-c986-4747-9bf0-adfe24810005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿">
+      <UniqueIdentifier>{3c264201-d59d-47de-aaaf-b3474596fcc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a00_키워드 typename\example1.hpp">
@@ -18,5 +24,22 @@
     <ClInclude Include="a01_0 초기화\example1.hpp">
       <Filter>a01_0 초기화</Filter>
     </ClInclude>
+    <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\lessarray.hpp">
+      <Filter>a03_원시 배열과 문자열 리터럴을 사용하는 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\lessstring.hpp">
+      <Filter>a03_원시 배열과 문자열 리터럴을 사용하는 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.hpp">
+      <Filter>a03_원시 배열과 문자열 리터럴을 사용하는 템플릿</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a02_this 사용\example1.cpp">
+      <Filter>a02_this 사용</Filter>
+    </ClCompile>
+    <ClCompile Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.cpp">
+      <Filter>a03_원시 배열과 문자열 리터럴을 사용하는 템플릿</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

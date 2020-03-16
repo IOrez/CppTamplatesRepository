@@ -1,1 +1,2 @@
-#include "../Chapter004/a03_가변 클래스 템플릿과 가변 표현식/example3.cpp"
+#include "../chapter005/a03_원시 배열과 문자열 리터럴을 사용하는 템플릿/arrays.cpp"
+

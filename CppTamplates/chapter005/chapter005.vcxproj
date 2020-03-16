@@ -141,6 +141,13 @@
     <ClInclude Include="a00_키워드 typename\example1.hpp" />
     <ClInclude Include="a00_키워드 typename\printcoll.hpp" />
     <ClInclude Include="a01_0 초기화\example1.hpp" />
+    <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.hpp" />
+    <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\lessarray.hpp" />
+    <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\lessstring.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a02_this 사용\example1.cpp" />
+    <ClCompile Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
