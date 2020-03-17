@@ -13,6 +13,9 @@
     <Filter Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿">
       <UniqueIdentifier>{3c264201-d59d-47de-aaaf-b3474596fcc1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a04_멤버 템플릿">
+      <UniqueIdentifier>{c783762b-121f-4bc9-9be7-7285b8c2637a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a00_키워드 typename\example1.hpp">
@@ -33,6 +36,27 @@
     <ClInclude Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.hpp">
       <Filter>a03_원시 배열과 문자열 리터럴을 사용하는 템플릿</Filter>
     </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\stack5decl.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\stack6decl.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\stack6assign.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\stack7decl.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\stack7assign.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\boolstring.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a04_멤버 템플릿\boolstringgetbool.hpp">
+      <Filter>a04_멤버 템플릿</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a02_this 사용\example1.cpp">
@@ -40,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.cpp">
       <Filter>a03_원시 배열과 문자열 리터럴을 사용하는 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="a04_멤버 템플릿\example1.cpp">
+      <Filter>a04_멤버 템플릿</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
