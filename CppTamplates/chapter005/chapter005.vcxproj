@@ -87,6 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/std:c++latest %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,11 +152,16 @@
     <ClInclude Include="a04_멤버 템플릿\stack6decl.hpp" />
     <ClInclude Include="a04_멤버 템플릿\stack7assign.hpp" />
     <ClInclude Include="a04_멤버 템플릿\stack7decl.hpp" />
+    <ClInclude Include="a05_변수 템플릿\example1.hpp" />
+    <ClInclude Include="a05_변수 템플릿\example2.hpp" />
+    <ClInclude Include="a05_변수 템플릿\example3.hpp" />
+    <ClInclude Include="a05_변수 템플릿\header.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a02_this 사용\example1.cpp" />
     <ClCompile Include="a03_원시 배열과 문자열 리터럴을 사용하는 템플릿\arrays.cpp" />
     <ClCompile Include="a04_멤버 템플릿\example1.cpp" />
+    <ClCompile Include="a05_변수 템플릿\example4.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

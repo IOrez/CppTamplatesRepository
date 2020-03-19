@@ -16,6 +16,9 @@
     <Filter Include="a04_멤버 템플릿">
       <UniqueIdentifier>{c783762b-121f-4bc9-9be7-7285b8c2637a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="a05_변수 템플릿">
+      <UniqueIdentifier>{430bb1d2-c9e0-45ba-9c89-7a252060cc8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a00_키워드 typename\example1.hpp">
@@ -57,6 +60,18 @@
     <ClInclude Include="a04_멤버 템플릿\boolstringgetbool.hpp">
       <Filter>a04_멤버 템플릿</Filter>
     </ClInclude>
+    <ClInclude Include="a05_변수 템플릿\example1.hpp">
+      <Filter>a05_변수 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a05_변수 템플릿\header.hpp">
+      <Filter>a05_변수 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a05_변수 템플릿\example2.hpp">
+      <Filter>a05_변수 템플릿</Filter>
+    </ClInclude>
+    <ClInclude Include="a05_변수 템플릿\example3.hpp">
+      <Filter>a05_변수 템플릿</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a02_this 사용\example1.cpp">
@@ -67,6 +82,9 @@
     </ClCompile>
     <ClCompile Include="a04_멤버 템플릿\example1.cpp">
       <Filter>a04_멤버 템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="a05_변수 템플릿\example4.hpp">
+      <Filter>a05_변수 템플릿</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

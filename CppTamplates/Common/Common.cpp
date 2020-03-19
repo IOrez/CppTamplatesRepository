@@ -1,2 +1,2 @@
-#include "../chapter005/a04_¸â¹ö ÅÛÇÃ¸´/boolstringgetbool.hpp"
+#include "../chapter005/a05_º¯¼ö ÅÛÇÃ¸´/example4.hpp"
 
